@@ -6,7 +6,7 @@ http://timestamp.io is a super easy way to convert a timestamp to a human readab
 - http://timestamp.io/1234567890 (http://coolepochcountdown.com)
 - http://timestamp.io/1337
 
-## Made by
+### Made by
 Chris Rowe  
 [@chrisrowe](http://twitter.com/chrisrowe)  
 http://chrisrowe.net
