@@ -16,7 +16,7 @@ set :git_enable_submodules, 1 # Set this if you are using submodules
 set :deploy_via, :remote_cache 
 
 # Specify the user used to deploy on the server
-set :user, "root"
+set :user, "chrisrowe"
 set :use_sudo, false
 
 # Our web & db servers are both at the domain we specified earlier
