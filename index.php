@@ -14,6 +14,7 @@
 <head>
 	<title><?=$title?></title>
 	<meta charset="utf-8">
+	<link rel="icon" href="/favicon.png" />
 	<style>body{margin:50px;font-family:sans-serif;text-align:center;}</style>
 </head>
 <body>
