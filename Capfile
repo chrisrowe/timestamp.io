@@ -55,12 +55,15 @@ namespace :deploy do
     EOF
     put vhost_config, "/tmp/vhost_config"
     sudo "mv /tmp/vhost_config /etc/apache2/sites-available/#{application}"
-    sudo "mkdir /home/#{user}/sites/#{application}/logs"
+    run "mkdir /home/#{user}/sites/#{application}/logs"
+    run "ln -s /home/#{user}/sites/holding /home/#{user}/sites/#{application}/current"
     sudo "a2ensite #{application}"
     run "sudo service apache2 restart"
   end
-  
+
 end
+
+after "deploy:setup", "deploy:after_setup"
 
 namespace :apache do
 	[:stop, :start, :restart, :reload].each do |action|
