@@ -6,6 +6,6 @@ set :application, File.basename(Dir.getwd)
 set :domain,    "buzz"
 set :user,      "chrisrowe"
 set :deploy_to,   "/home/#{user}/sites/#{application}"
-set :repository,  "git@bitbucket.org:chrisrowenet/#{application}.git"
+set :repository,  "git@github.com:chrisrowe/timestamp.io.git"
 
 load '../cap/capfilecommon'
