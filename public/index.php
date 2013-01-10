@@ -31,7 +31,6 @@
 
 	<?=$out?>
 
-
 	<script type="text/javascript">
 		var _gauges = _gauges || [];
 		(function() {
